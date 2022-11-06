@@ -1,25 +1,29 @@
 # Jeu de dames
-_Créé par Célian Lesage_
 
+*Créé par Célian Lesage*
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 ## Pour commencer
 
 Requiert [Python](https://www.python.org/downloads/).
 
-### Modules requis :
+### Modules requis
 
 * [Numpy](https://github.com/numpy/numpy)
 
 * [Rich](https://github.com/Textualize/rich)
 
 * [Art](https://github.com/sepandhaghighi/art)
+
 ```powershell
 python -m pip install numpy
 ```
+
 ```powershell
 python -m pip install rich
 ```
+
 ```powershell
 python -m pip install art
 ```
@@ -29,6 +33,7 @@ Le jeu est compatible Windows et Linux et peut être exécuté depuis un termina
 >`python /chemin/du/fichier/damesV4.py`
 
 ## Comment jouer ?
+
 Le jeu respècte les [règles officielles du jeu de Dames](http://www.ffjd.fr/Web/index.php?page=reglesdujeu).
 
 Les numéros de lignes et colonnes sont affichés à côté des cases du damier :
@@ -47,13 +52,13 @@ Le joueur aura des propositions de déplacement. Il faut ensuite entrer le numé
 
 ![Image](img/exemple2.png)
 
->*Réponse du joueur :* 
+>*Réponse du joueur :*
 
 ![Image](img/exemple3.png)
 
 Le jeu suit le même principe pour la prise de pion.
 
-### Cas d'un déplacement avec une dame :
+### Cas d'un déplacement avec une dame
 
 La prise avec les dames se passe de la même manière qu'avec un pion normal.
 
@@ -71,7 +76,7 @@ Cependant, la dame pouvant se déplacer sur n'importe quelle case d'une rangée,
 
 ![Image](img/exemple6.png)
 
-## Fonctions de debug :
+## Fonctions de debug
 
 >*Ces fonctions sont assez instables et donc risquent de provoquer un crash en cas de mauvaise manipulation.*
 
