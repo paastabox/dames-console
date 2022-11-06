@@ -601,10 +601,13 @@ def fdeplacement():   #fait les propositions quand il n'y a pas de pion à prend
                 for j in range(0,4,2):
                     k = ligne_in - 1 + i
                     l = colonne_in - 1 + j
-                    if damier[k][l] == VIDE:
-                        tdepl[0][i+j//2] = 1
-                        tdepl[1][i+j//2] = k
-                        tdepl[2][i+j//2] = l
+                    try:
+                        if damier[k][l] == VIDE:
+                            tdepl[0][i+j//2] = 1
+                            tdepl[1][i+j//2] = k
+                            tdepl[2][i+j//2] = l
+                    except IndexError:
+                        pass
         
         
     if (dbl_prise == False or (dbl_prise == True and doit_prendre == True)):
@@ -786,12 +789,12 @@ def tfin():
     if nb_blanc == 0 and nb_blanc_dame == 0:
         clear()
         show_damier()
-        console.print('\nLes pions noirs ont gagnés !',end='',style='bold blue blink')
+        console.print('\nLes pions noirs ont gagnés !\n',end='',style='bold blue blink')
         end_game = True
     elif nb_noir == 0 and nb_noir_dame == 0:
         clear()
         show_damier()
-        console.print('\nLes pions blancs ont gagnés !',end='',style='bold blue blink')
+        console.print('\nLes pions blancs ont gagnés !\n',end='',style='bold blue blink')
         end_game = True
     elif nb_noir_dame == 1 and nb_blanc_dame == 1:
         clear()
@@ -878,7 +881,7 @@ def test_choix_joueur():    #FONCTION DE DEV -> choisir le joueur sans contraint
         elif entree == '':
             return(joueur)
         
-def test_choix_pion():
+def test_choix_pion():      #FONCTION DE DEV -> changer un pion
     global damier
     accept2:bool = False
     while accept2 == False:
@@ -922,10 +925,6 @@ def game():
     dev()   #APPELER LES FONCTIONS DE DEV
 
     compt_pion()
-
-    show_damier()
-    
-    entete()
 
     while True:
         if mode_dev == True:
