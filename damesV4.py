@@ -7,6 +7,10 @@ import sys
 import os
 import time
 
+# python -m pip install art
+# module pour l'ascii art
+from art import text2art
+
 # python -m pip install rich
 # module pour colorer le texte
 from rich.console import Console
@@ -981,6 +985,11 @@ def game():
         
         ch_joueur()
 
-game()
+clear()
 
-#TODO gestion fin de partie
+print(text2art("Jeu de dames"))
+print(text2art("Par Celian Lesage",font="small"))
+print('<enter> pour continuer')
+input()
+
+game()
