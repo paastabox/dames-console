@@ -30,7 +30,7 @@ Pour sélectionner un pion, le joueur doit entrer les coordonnées du pion dési
 
 ![Image](img/exemple1.png)
 
-Si il n'y a pas de pion(s) adverse(s) à prendre, le joueur aura des propositions de déplacement. Il faut ensuite entrer le numéro de la proposition :
+Le joueur aura des propositions de déplacement. Il faut ensuite entrer le numéro de la proposition :
 
 >*Propositions de déplacement :*
 
