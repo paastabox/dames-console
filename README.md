@@ -62,7 +62,7 @@ Cependant, la dame pouvant se déplacer sur n'importe quelle case d'une rangée,
 
 ## Fonctions de debug :
 
->*Ces fonctions sont assez instables et donc risuent de provoquer un crash en cas de mauvaise manipulation.*
+>*Ces fonctions sont assez instables et donc risquent de provoquer un crash en cas de mauvaise manipulation.*
 
 Au lancement du programme, il est possible d'activer un mode de debug utile pour effectuer divers tests.
 
