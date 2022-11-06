@@ -1,19 +1,30 @@
 # Jeu de dames
 _Créé par Célian Lesage_
 
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ## Pour commencer
+
+Requiert [Python](https://www.python.org/downloads/).
 
 ### Modules requis :
 
 * [Numpy](https://github.com/numpy/numpy)
+
 * [Rich](https://github.com/Textualize/rich)
+
+* [Art](https://github.com/sepandhaghighi/art)
 ```powershell
 python -m pip install numpy
+```
+```powershell
 python -m pip install rich
 ```
+```powershell
+python -m pip install art
+```
 
-Le jeu peut être exécuté depuis un terminal windows/python/vscode...
+Le jeu est compatible Windows et Linux et peut être exécuté depuis un terminal cmd/powershell/python/vscode...
 
 >`python /chemin/du/fichier/damesV4.py`
 
