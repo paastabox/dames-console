@@ -26,7 +26,7 @@ Les numéros de lignes et colonnes sont affichés à côté des cases du damier 
 
 Pour sélectionner un pion, le joueur doit entrer les coordonnées du pion désiré dans le format **`ligne colonne`** :
 
->*Dans cet exemple, la pièce sélectionnée sera celle située **ligne 6 colonne 1**.*
+>*Dans cet exemple, le pion sélectionné sera celui situé **ligne 6 colonne 1**.*
 
 ![Image](img/exemple1.png)
 
