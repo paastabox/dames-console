@@ -15,7 +15,7 @@ python -m pip install rich
 
 Le jeu peut être exécuté depuis un terminal windows/python/vscode...
 
->`python /chemin_du_fichier/damesV4.py`
+>`python /chemin/du/fichier/damesV4.py`
 
 ## Comment jouer ?
 Le jeu respècte les [règles officielles du jeu de Dames](http://www.ffjd.fr/Web/index.php?page=reglesdujeu).
