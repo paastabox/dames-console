@@ -10,7 +10,9 @@ Requiert [Python](https://www.python.org/downloads/).
 ### Modules requis :
 
 * [Numpy](https://github.com/numpy/numpy)
+
 * [Rich](https://github.com/Textualize/rich)
+
 * [Art](https://github.com/sepandhaghighi/art)
 ```powershell
 python -m pip install numpy
