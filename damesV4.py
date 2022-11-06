@@ -988,8 +988,13 @@ def game():
 clear()
 
 print(text2art("Jeu de dames"))
+
 print(text2art("Par Celian Lesage",font="small"))
+
 print('<enter> pour continuer')
+
 input()
 
 game()
+
+#ligne 1000
